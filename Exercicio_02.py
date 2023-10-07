@@ -2,7 +2,7 @@ import random
 
 d = {}
 
-for i in range(100):
+for _ in range(100): #quando não vamos utilizar a variável contadora colocamos o _ para representá-la 
     num = int(random.random() * 20)
 
     if d.get(num) != None:
